@@ -1,7 +1,7 @@
 /* Id for the section of the main-heading*/
 #header {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     margin: 0px;
     padding: 5%;
     display: flex;
@@ -12,34 +12,58 @@
     padding: 0px;
 }
 
+#header div div{
+    padding: 2px;
+}
+/* Social media links style*/
+.fa{
+    margin: 0px 12px 8px 0px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    border: 2px solid;
+}
+
+.fa:hover{
+    color: gold;
+}
+
 #header img {
+    width: 18%;
+    border: 5px solid transparent;
+    border-color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 200px;
+    padding: 0px;
+    background-color: gold;
 }
 
 /* button control*/
 #header button{
     font-size: 120%;
     border: none;
-    color: gold;
-    background-color: black;
+    color: white;
+    background-color: grey;
     border-radius: 8px;
 }
 
 /* button hover control*/
 #header button:hover {
-    color: black;
+    color: white;
     background-color: gold;
+    background: linear-gradient(gray,gold);
 }
 /* cotrols for the div in the about-me section */
 #about-me{
-    background-color: black;
+    border: 5px solid;
+    border-color: gray;
+    border-radius: 0px;
     color: white;
-    margin: 0%;
     padding: 5%;
-
+    background-color: grey;
 }
 
 /* controls for the text in the about me section*/
@@ -49,9 +73,9 @@
 
 /*controls the portfolio section*/
 #portfolio {
-    border-collapse: collapse;
     padding: 5%;
-    margin: 0px ;
+    margin: 0px;
+
 }
 
 #project-list {
@@ -63,35 +87,49 @@
 
 /* control for all the projects in the page*/
 .projects {
-    width: 430px;  
-    border-collapse: collapse; 
-    margin: 0px 0px 50px 0px;
-    padding: 0px;
+    width: 375px;  
+    border: 5px solid;
+    border-color: grey; 
+    border-radius: 10px;
+    margin: 0px 25px 50px 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
 
 }
 
 .projects img{
+    margin: auto;
     display: block;
-    width: 75%;
+    width: 55%;
 }
 
 .projects p{
-    width: 85%;
+    width: 100%;
     margin: 16px 0px 0px 0px;
 }
 
 .projects h2{
+    color: gold;
     width: 100%;
+    text-align: center;
+}
+
+.projects h2:hover{
+    color: grey ;
 }
 
 /* controls all section headings*/
 .section-heading{
     color: gold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 
 /* controls the body */
 body{
     margin: 0%;
+    background-color: black;
 }
