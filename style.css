@@ -133,3 +133,8 @@ body{
     margin: 0%;
     background-color: black;
 }
+
+::selection{
+    background: gold;
+    color: black
+}
